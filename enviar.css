@@ -1,11 +1,11 @@
 @media screen and (min-width: 0) {
-    .corpo {
+    .enviar {
         padding: 0 1rem;
         justify-content: center;
     }
 }
 @media screen and (min-width: 768px) {
-    .corpo {
+    .enviar {
         padding: 0 5rem;
         justify-content: space-between;
     }
@@ -24,8 +24,8 @@
 	cursor: pointer;
 	position: relative;
 	text-transform: uppercase; 
-    left: 650px;
-	top: -200px;
+    left: 700px;
+	top: -250px;
 }
 
 .enviar:hover 

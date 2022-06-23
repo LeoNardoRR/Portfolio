@@ -4,8 +4,9 @@ body {
 }
 
 .text {
-	font-size: 20px;
-	color: gray;
+	font-size: 40px;
+	left: 100px;
+	color: rgb(255, 255, 255);
 	font-style: inherit;
 	position: relative;
 	text-align: center;
@@ -14,7 +15,8 @@ body {
 
 h1 {
 	font-size: 20px;
-	color: gray;
+	left: 100px;
+	color: rgb(255, 255, 255);
 	font-style: inherit;
 	position: relative;
 	top: -290px;
@@ -25,7 +27,7 @@ h1 {
 	font-size: 20px;
 	color: gray;
 	font-style: inherit;
-    left: 580px;
+    left: 650px;
 	position: relative;
 	top: -280px;
 	text-align: center;
@@ -35,7 +37,7 @@ h1 {
 	font-size: 20px;
 	color: gray;
 	font-style: inherit;
-    left: 580px;
+    left: 600px;
 	position: relative;
 	top: -270px;
 	text-align: center;
@@ -49,7 +51,7 @@ footer {
 	text-align: center;
 	position:static;
 	top: auto;
-	width: 1200px;
+	width: 800px;
 	background: url("bg.jpg");
 	padding: 40px;
 	background-color: rgb(0, 0, 0);
