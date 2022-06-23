@@ -1,0 +1,35 @@
+@media screen and (min-width: 0) {
+    .corpo {
+        padding: 0 1rem;
+        justify-content: center;
+    }
+}
+@media screen and (min-width: 768px) {
+    .corpo {
+        padding: 0 5rem;
+        justify-content: space-between;
+    }
+}
+
+.enviar {
+	width:8%;
+	padding: 15px 0;
+	background: orange;
+	color: white;
+	font-weight: bold;
+	font-size: 14px;
+	border: none;
+	border-radius: 5px;
+	transition: 1s all;
+	cursor: pointer;
+	position: relative;
+	text-transform: uppercase; 
+    left: 650px;
+	top: -200px;
+}
+
+.enviar:hover 
+{
+	background: darkorange;
+	transform: scale(1.2);
+}

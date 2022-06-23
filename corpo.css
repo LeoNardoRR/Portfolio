@@ -1,0 +1,22 @@
+@media screen and (min-width: 0) {
+    .corpo {
+        padding: 0 1rem;
+        justify-content: center;
+    }
+}
+@media screen and (min-width: 768px) {
+    .corpo {
+        padding: 0 5rem;
+        justify-content: space-between;
+    }
+}
+
+.corpo {
+	position: relative;
+	top: 10px;
+	background-color: rgb(0, 0, 0);
+	height: auto;
+	width: 900px;
+    align-items: center;
+	left: 10%;
+}

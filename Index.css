@@ -1,0 +1,63 @@
+body {
+	background-color: rgb(224, 224, 224);
+	font-family: 'Calibri Light', sans-serif;
+}
+
+.text {
+	font-size: 20px;
+	color: gray;
+	font-style: inherit;
+	position: relative;
+	text-align: center;
+	top: -300px;
+}
+
+h1 {
+	font-size: 20px;
+	color: gray;
+	font-style: inherit;
+	position: relative;
+	top: -290px;
+	text-align: center;
+}	
+
+.text1{
+	font-size: 20px;
+	color: gray;
+	font-style: inherit;
+    left: 580px;
+	position: relative;
+	top: -280px;
+	text-align: center;
+}
+
+.text2{
+	font-size: 20px;
+	color: gray;
+	font-style: inherit;
+    left: 580px;
+	position: relative;
+	top: -270px;
+	text-align: center;
+}
+
+a {
+    color: gray;
+}
+
+footer {
+	text-align: center;
+	position:static;
+	top: auto;
+	width: 1200px;
+	background: url("bg.jpg");
+	padding: 40px;
+	background-color: rgb(0, 0, 0);
+}
+
+.copyright {
+	color: #FFFFFF;
+	font-size: 13px;
+	margin: 20px;
+	top: 200px;
+}

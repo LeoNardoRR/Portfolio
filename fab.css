@@ -1,0 +1,228 @@
+@media screen and (min-width: 0) {
+    .corpo {
+        padding: 0 1rem;
+        justify-content: center;
+    }
+}
+@media screen and (min-width: 768px) {
+    .corpo {
+        padding: 0 5rem;
+        justify-content: space-between;
+    }
+}
+
+.fab
+{
+	position: fixed;
+	bottom:15px;
+	right: 30px;
+}
+  
+.Awards {
+	font-size: 70px;
+	text-transform: uppercase;
+	top: 10px;
+	left: -130px;
+	color:aliceblue;
+	font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+	text-align: center;
+	position: relative;
+	border-radius:5px;
+}
+
+#opcao1
+{
+	width: 100px;
+	top: 7px;
+	position: absolute;
+}
+
+.Academic {
+	font-size: 70px;
+	text-transform: uppercase;
+	top: 40px;
+	left: -130px;
+	color:aliceblue;
+	font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+	text-align: center;
+	position: relative;
+	border-radius:5px;
+}
+
+#opcao2
+{
+	width: 100px;
+	top: -15px;
+	position: relative;
+}
+
+.Professional {
+	font-size: 70px;
+	text-transform: uppercase;
+	top: auto;
+	left: -130px;
+	color:aliceblue;
+	font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+	text-align: center;
+	position: relative;
+	border-radius:5px;
+}
+
+#opcao3
+{
+	width: 100px;
+	top: 30px;
+	position: absolute;
+}
+
+.Project {
+	font-size: 70px;
+	text-transform: uppercase;
+	top: 20px;
+	left: -130px;
+	color:aliceblue;
+	font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+	text-align: center;
+	position: relative;
+	border-radius:5px;
+}
+
+#opcao4
+{
+	width: 100px;
+	top: -30px;
+	position: relative;
+}
+
+.About {
+	font-size: 70px;
+	text-transform: uppercase;
+	top: -20px;
+	left: -130px;
+	color:aliceblue;
+	font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+	text-align: center;
+	position: relative;
+	border-radius:5px;
+}
+
+#opcao5
+{
+	width: 100px;
+	top: 15px;
+	position: absolute;
+}
+
+.fab button
+{
+	cursor: pointer;
+	width: 68px;
+	height: 68px;
+	border-radius: 30px;
+	background-color: black;
+	border: none;
+	box-shadow: 2px 1px 7px 5px gray;
+	font-size: 24px;
+	color: white;
+	
+	-webkit-transition: .2s ease-out;
+	-moz-transition: .2s ease-out;
+	transition: .2s ease-out;
+}
+
+.fab button.main
+{
+	position: relative;
+	width: 68px;
+	height: 68px;
+	border-radius: 30px;
+	background-color: black;
+	right: 20px;
+	bottom: 0;
+	z-index: 20;
+
+}
+  
+.fab button.main:before
+{
+	content: '☰';
+}
+  
+.fab ul
+{
+	position: absolute;
+	bottom: 10px;
+	right: -20px;
+	padding:0;
+	padding-right:5px;
+	margin:0;
+	z-index: 10;
+	
+	-webkit-transition: .2s ease-out;
+	-moz-transition: .2s ease-out;
+	transition: .2s ease-out;
+}
+  
+  .fab ul li
+{
+	display: inline;
+	position: relative;
+	margin-bottom: -10%;
+	opacity: 0;
+	
+	-webkit-transition: .3s ease-out;
+	-moz-transition: .3s ease-out;
+	transition: .3s ease-out;
+}
+  
+  .fab ul li label
+{
+	margin-right:10px;
+	white-space: nowrap;
+	display: block;
+	margin-top: 10px;
+	padding: 5px 8px;
+	background-color: black;
+	box-shadow: 2px 1px 7px 5px gray;
+	border-radius:3px;
+	height: 28px;
+	font-size: 16px;
+	pointer-events: none;
+	opacity:0;
+	
+	-webkit-transition: .2s ease-out;
+	-moz-transition: .2s ease-out;
+	transition: .2s ease-out;
+}
+  
+  .fab button.main:active,
+  .fab button.main:focus
+{
+	outline: none;
+	background-color: black;
+	box-shadow: 2px 1px 7px 5px gray;
+}
+   
+  .fab button.main:active:before,
+  .fab button.main:focus:before
+{
+	content: '↑';
+}
+  
+  .fab button.main:active + ul,
+  .fab button.main:focus + ul
+{
+	bottom: 70px;
+}
+  
+  .fab button.main:active + ul li,
+  .fab button.main:focus + ul li
+{
+	margin-bottom: 10px;
+	opacity: 1;
+}  
+  .fab button.main:active + ul li:hover label,
+  .fab button.main:focus + ul li:hover label
+{
+	opacity: 1;
+}
