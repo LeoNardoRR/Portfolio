@@ -9,6 +9,7 @@
 
 body {
   font-family: "Poppins", sans-serif;
+  background-color: black;
 }
 
 html {
@@ -50,6 +51,7 @@ a {
   color: black;
   text-decoration: none;
   text-decoration-color: white;
+  color: white;
 }
 
 a:hover {
@@ -61,6 +63,7 @@ a:hover {
 
 .logo {
   font-size: 2rem;
+  color: white;
 }
 
 .logo:hover {
@@ -197,8 +200,9 @@ section {
 }
 
 .title {
-  font-size: 3rem;
+  font-size: 2.5rem;
   text-align: center;
+  color: white;
 }
 
 #socials-container {
